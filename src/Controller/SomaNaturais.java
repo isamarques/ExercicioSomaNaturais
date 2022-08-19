@@ -1,4 +1,4 @@
-//Feito em conjunto com Isabela Marques
+//Feito em conjunto com Rebeca Sena
 
 package Controller;
 
@@ -10,12 +10,12 @@ public class SomaNaturais {
 	}
 
 	public int SomaN(int N) {
-		//condição de parada
+		//condiÃ§Ã£o de parada
 		if (N <= 0) {
 			return 0;
 
 		}
-		//função do termo anterior 
+		//funÃ§Ã£o do termo anterior 
 		return N + SomaN(N - 1);
 	}
 
